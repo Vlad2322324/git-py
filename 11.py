@@ -15,6 +15,7 @@ def responses_creator(item_ids):
     return [dict(item_id=item) for item in item_ids]
 
 
+
 print(randf(2))
 print(chained([1, 4], [4, 23]))
 print(responses_creator([12, 21, 13]))
